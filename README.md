@@ -2,7 +2,7 @@
 
 <p align="left">
   <img src="https://img.shields.io/badge/Current_Trail-Novice_Low_(프로그래밍_기초)-green?style=for-the-badge&logo=codetree" />
-  <img src="https://img.shields.io/badge/Total_Solved-5개-blue?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Total_Solved-6개-blue?style=for-the-badge&logo=github" />
 </p>
 
 ---
@@ -10,10 +10,10 @@
 ## 📊 Trail별 진행 및 챕터 현황
 
 ### 🔥 `Trail 1` - Novice Low (프로그래밍 기초)
-- **총 풀이 문제 수:** `5개`
+- **총 풀이 문제 수:** `6개`
 
   * 🟢 **출력**: `4문제` `[████████░░]`
-  * 🟢 **1차원 배열**: `1문제` `[██░░░░░░░░]`
+  * 🟢 **1차원 배열**: `2문제` `[████░░░░░░]`
 
 ### ⚪ `Trail 2` - Novice Mid (프로그래밍 연습)
 - *아직 제출된 풀이가 없습니다.*
