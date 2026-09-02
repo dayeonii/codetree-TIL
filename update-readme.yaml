@@ -1,0 +1,37 @@
+name: Auto Update CodeTree README
+
+on:
+  push:
+    branches:
+      - main     # 기본 브랜치 이름이 master라면 master로 수정해 주세요.
+      - master
+
+permissions:
+  contents: write # README를 수정하고 다시 Commit/Push 하기 위한 권한 설정
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 레포지토리 코드 가져오기
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 2. 파이썬 환경 설정
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # 3. README 업데이트 파이썬 스크립트 실행
+      - name: Run Readme Generator
+        run: python update_readme.py
+
+      # 4. 변경된 README.md 자동으로 커밋 & 푸시
+      - name: Commit & Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --staged --quiet || (git commit -m "docs: 🚀 CodeTree 학습 진도 현황 자동 업데이트" && git push)
