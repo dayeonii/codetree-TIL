@@ -1,12 +1,12 @@
 # 🌲 CodeTree TIL (알고리즘 감시 대시보드)
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Overall_Progress-27_1334_(2.0%25)-blue?style=for-the-badge&logo=codetree" />
+  <img src="https://img.shields.io/badge/Overall_Progress-28_1334_(2.1%25)-blue?style=for-the-badge&logo=codetree" />
   <img src="https://img.shields.io/badge/Current_Trail-Novice_Mid_(프로그래밍_연습)-green?style=for-the-badge" />
 </p>
 
 ### 🎯 전체 커리큘럼 달성도
-`[░░░░░░░░░░░░░░░] 2.0% (27 / 1334 문제 해결)`
+`[░░░░░░░░░░░░░░░] 2.1% (28 / 1334 문제 해결)`
 
 ---
 
@@ -34,8 +34,10 @@
 ### ⚪ `Trail 5` - Intermediate Mid (알고리즘 기본)
 - **진행률:** `[░░░░░░░░░░] 0%` (0 / 176 문제)
 
-### ⚪ `Trail 6` - Intermediate High (알고리즘 실전)
-- **진행률:** `[░░░░░░░░░░] 0%` (0 / 149 문제)
+### 🔥 `Trail 6` - Intermediate High (알고리즘 실전)
+- **진행률:** `[░░░░░░░░░░] 0.7%` (1 / 149 문제)
+- **풀이한 챕터 현황:**
+  * 🟢 **위상정렬**: `1문제 완료`
 
 ---
 > 🤖 *이 대시보드는 GitHub Actions를 통해 문제 제출 시 실시간 자동 반영됩니다.*
